@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# CSVファイル読み込み
+# CSVファイルの読み込み
 #k-meansにより、生成したファイル名
 df = pd.read_csv('two_islandout.csv', header=None, names=['X', 'Y', 'Cluster'])
 
