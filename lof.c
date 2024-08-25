@@ -48,7 +48,7 @@ int main(int argc, char *argv[]){
         return -1;
     }
 
-    //各データの距離を配列に格納する
+    //各データの距離を配列に格納
     for(i = 0; i < max_data_size; i++){
         for(j = 0; j < max_data_size; j++){
             //注目したデータと他のデータの距離
@@ -58,7 +58,7 @@ int main(int argc, char *argv[]){
         }
     }
 
-    //d[i][j]配列をデータに対しての距離をソートする
+    //d[i][j]配列をデータに対しての距離をソート
     for(i = 0; i < max_data_size; i++){
         for(j = 0; j < max_data_size; j++){
             for(g = j + 1; g < max_data_size; g++){
